@@ -25,7 +25,7 @@ class UserDatabase {
 private:
     Node* head;
     queue<User> userQueue;
-    User users[100];
+    User users[1];
     int userCount;
 
 public:
